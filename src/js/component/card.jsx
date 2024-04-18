@@ -10,6 +10,9 @@ const Card = (props) => {
                 <p className="card-text">{props.description}</p>
                 <a href="#" className="btn btn-primary">Find out </a>
             </div>
+            <div className="card-footer">
+                <a href={props.buttonUrl} className="btn btn-primary" target="_blank">{props.buttonLabel}</a>
+            </div>
         </div>
     )
 }
@@ -18,5 +21,8 @@ Card.propTypes = {
     imageUrl: propTypes.string,
     title: propTypes.string,
     description: propTypes.string,
+    buttonLabel: propTypes.string,
+    buttonUrl: propTypes.string,
 }
-export default Card;
+
+export default Card
