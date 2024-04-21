@@ -22,7 +22,7 @@ const Home = () => {
 						<Jumbotron />
 					</div>
 				</div>
-				<div className="row">
+ 				<div className="row">
 					<div className="col-12 col-lg-6 col-xl-3 mb-3 ms-1 ms-md-0">
 						<Card 
 						imageUrl= {brainImage}
